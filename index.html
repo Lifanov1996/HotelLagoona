@@ -7,13 +7,15 @@
 </head>
 <body>
   <header class="header">
-    <a href="#" class="header-logo">
-      <img src="img/logo.svg" alt="Logo">
-    </a>
-    <address>
-      <a href="tel:+74953225448" class="header-number">+7 495 322-54-48</a>
-    </address>
-    <a class="header-ls image-ls" href="#">Личный кабинет</a>
+    <div class="header-top">
+      <a href="#" class="header-logo">
+        <img src="img/logo.svg" alt="Logo">
+      </a>
+      <address>
+        <a href="tel:+74953225448" class="header-number">+7 495 322-54-48</a>
+      </address>
+      <a class="header-ls image-ls" href="#">Личный кабинет</a>
+    </div>
     <nav class="header-nav">
       <ul class="header-list">
         <li class="header-list-item">
@@ -34,14 +36,12 @@
         <li class="header-list-item">
           <a href="#контакты" class="header-link">Контакты</a>
         </li>
-        <li class="header-list-item">
-          <a href="#хочутур" class="header-link">Хочу тур</a>
-        </li>
-        <li class="header-list-item">
-          <a href="#" class="header-link">Обратный звонок</a>
-        </li>
       </ul>
     </nav>
+    <div class="header-btn">
+      <a href="#хочутур" class="header-link">Хочу тур</a>
+      <a href="#" class="header-link">Обратный звонок</a>
+    </div>
   </header>
   <main class="main">
     <section>
@@ -49,44 +49,43 @@
         <h2 class="section-title">
           Спецпредложения
         </h2>
-        <ul class="specs-item">
-          <li class="specs-items">
-            <img src="img/specs-1.jpg" alt="Pfoto discr">
-            <div class="title-specs-item">
-              Мальдивские острова
+          <div class="specs-left">
+            <div class="specs-image1">
+              <h3 class="title-specs-item">
+                Мальдивские острова
+              </h3>
+              <span class="specs-summ">
+                от 55 000
+              </span>
+              <span class="specs-link-item">
+                <a href="#" class="specs-link image-specs">Подробнее</a>
+              </span>
             </div>
-            <span class="specs-summ">
-              от 55 000
-            </span>
-            <span class="specs-link-item">
-              <a href="#" class="specs-link image-specs">Подробнее</a>
-            </span>
-          </li>
-          <li class="specs-items">
-            <img src="img/specs-2.jpg" alt="Pfoto discr">
-            <div class="title-specs-item">
-              Горящий тур на остров Крит
-            </div>
-            <span class="specs-summ">
+            <div class="specs-image2">
+              <h3 class="title-specs-item">
+                Горящий тур на остров Крит
+              </h3>
+              <span class="specs-summ">
               от 30 000
-            </span>
-            <span class="specs-link-item">
-              <a href="#" class="specs-link image-specs">Подробнее</a>
-            </span>
-          </li>
-          <li class="specs-items">
-            <img src="img/specs-3.jpg" alt="Pfoto discr">
-            <div class="title-specs-item">
-              Номера категории люкс
+              </span>
+              <span class="specs-link-item">
+                <a href="#" class="specs-link image-specs">Подробнее</a>
+              </span>
             </div>
-            <span class="specs-summ">
-              от 5 000
-            </span>
-            <span class="specs-link-item">
-              <a href="#" class="specs-link image-specs">Подробнее</a>
-            </span>
-          </li>
-        </ul>
+          </div>
+          <div specs-right>
+            <div class="specs-image3">
+              <h3 class="title-specs-item">
+                Номера категории люкс
+              </h3>
+              <span class="specs-summ">
+                от 5 000
+              </span>
+              <span class="specs-link-item">
+                <a href="#" class="specs-link image-specs">Подробнее</a>
+              </span>
+            </div>
+          </div>
       </div>
     </section>
     <section id="онас" class="us">
@@ -111,9 +110,11 @@
           <li class="services-items">
             <img src="img/services-1.jpg" alt="Photo descr">
             <div class="services-descr">
-              <a href="#" class="services-link">
-                Эксклюзивное обслуживание
-              </a>
+              <h3>
+                <a href="#" class="services-link">
+                  Эксклюзивное обслуживание
+                </a>
+              </h3>
               <p class="services-text">
                 Равным образом постоянный количественный рост и&nbsp;сфера нашей активности
               </p>
@@ -122,9 +123,11 @@
           <li class="services-items">
             <img src="img/services-2.jpg" alt="Photo descr">
             <div class="services-descr">
-              <a href="#" class="services-link">
-                Аренда банкетных залов
-              </a>
+              <h3>
+                <a href="#" class="services-link">
+                  Аренда банкетных залов
+                </a>
+              </h3>
               <p class="services-text">
                 Значимость этих проблем настолько очевидна, что дальнейшее развитие различных форм
               </p>
@@ -133,9 +136,11 @@
           <li class="services-items">
             <img src="img/services-3.jpg" alt="Photo descr">
             <div class="services-descr">
-              <a href="#" class="services-link">
-                Сауны, бассейны, бани, фитнес-залы
-              </a>
+              <h3>
+                <a href="#" class="services-link">
+                  Сауны, бассейны, бани, фитнес-залы
+                </a>
+              </h3>
               <p class="services-text">
                 Не&nbsp;следует, однако забывать, что начало повседневной работы по&nbsp;формированию позиции
               </p>
@@ -144,9 +149,11 @@
           <li class="services-items">
             <img src="img/services-4.jpg" alt="Photo descr">
             <div class="services-descr">
-              <a href="#" class="services-link">
-                Охраняемые автомобильные стоянки
-              </a>
+              <h3>
+                <a href="#" class="services-link">
+                  Охраняемые автомобильные стоянки
+                </a>
+              </h3>
               <p class="services-text">
                 Не&nbsp;следует, однако забывать, что начало повседневной работы по&nbsp;формированию позиции
               </p>
@@ -223,9 +230,11 @@
             <img src="img/plac-1.jpg" alt="Pfoto descr">
             <div class="plac-items-decsr">
               <div class="plac-decsr">
-                <span class="plac-descr-top">от</span>
-                <span class="plac-descr-top-sum">4 698</span>
-                <span class="plac-descr-top-des">/ ночь</span>
+                <div class="plac-top">
+                  <span class="plac-descr-top">от</span>
+                  <span class="plac-descr-top-sum">4 698</span>
+                  <span class="plac-descr-top-des">/ ночь</span>
+                </div>
                 <div class="plac-star">
                   <img src="img/gold-star.svg" alt="Рейтинг 4 из 5">
                   <img src="img/gold-star.svg">
@@ -234,7 +243,7 @@
                   <img src="img/star.svg">
                 </div>
               </div>
-              <span class="plac-name">Lagoona española</span>
+              <h3 class="plac-name">Lagoona española</h3>
               <span class="plac-location">Барселона, Испания</span>
               <a href="#" class="plac-number">Номера</a>
             </div>
@@ -243,9 +252,11 @@
             <img src="img/plac-2.jpg" alt="Pfoto descr">
             <div class="plac-items-decsr">
               <div class="plac-decsr">
-                <span class="plac-descr-top">от</span>
-                <span class="plac-descr-top-sum">5 148</span>
-                <span class="plac-descr-top-des">/ ночь</span>
+                <div class="plac-top">
+                  <span class="plac-descr-top">от</span>
+                  <span class="plac-descr-top-sum">5 148</span>
+                  <span class="plac-descr-top-des">/ ночь</span>
+                </div>
                 <div class="plac-star">
                   <img src="img/gold-star.svg" alt="Рейтинг 4 из 5">
                   <img src="img/gold-star.svg">
@@ -254,7 +265,7 @@
                   <img src="img/star.svg">
                 </div>
               </div>
-              <span class="plac-name">Lagoona son típicas</span>
+              <h3 class="plac-name">Lagoona son típicas</h3>
               <span class="plac-location">Барселона, Испания</span>
               <a href="#" class="plac-number">Номера</a>
             </div>
@@ -263,9 +274,11 @@
             <img src="img/plac-3.jpg" alt="Pfoto descr">
             <div class="plac-items-decsr">
               <div class="plac-decsr">
-                <span class="plac-descr-top">от</span>
-                <span class="plac-descr-top-sum">6 254</span>
-                <span class="plac-descr-top-des">/ ночь</span>
+                <div class="plac-top">
+                  <span class="plac-descr-top">от</span>
+                  <span class="plac-descr-top-sum">6 254</span>
+                  <span class="plac-descr-top-des">/ ночь</span>
+                </div>
                 <div class="plac-star">
                   <img src="img/gold-star.svg" alt="Рейтинг 5 из 5">
                   <img src="img/gold-star.svg">
@@ -274,7 +287,7 @@
                   <img src="img/gold-star.svg">
                 </div>
               </div>
-              <span class="plac-name">Lagoona de la guerra</span>
+              <h3 class="plac-name">Lagoona de la guerra</h3>
               <span class="plac-location">Барселона, Испания</span>
               <a href="#" class="plac-number">Номера</a>
             </div>
@@ -283,9 +296,11 @@
             <img src="img/plac-4.jpg" alt="Pfoto descr">
             <div class="plac-items-decsr">
               <div class="plac-decsr">
-                <span class="plac-descr-top">от</span>
-                <span class="plac-descr-top-sum">6 320</span>
-                <span class="plac-descr-top-des">/ ночь</span>
+                <div class="plac-top">
+                  <span class="plac-descr-top">от</span>
+                  <span class="plac-descr-top-sum">6 320</span>
+                  <span class="plac-descr-top-des">/ ночь</span>
+                </div>
                 <div class="plac-star">
                   <img src="img/gold-star.svg" alt="Рейтинг 5 из 5">
                   <img src="img/gold-star.svg">
@@ -294,7 +309,7 @@
                   <img src="img/gold-star.svg">
                 </div>
               </div>
-              <span class="plac-name">Lagoona mentira piadosa</span>
+              <h3 class="plac-name">Lagoona mentira piadosa</h3>
               <span class="plac-location">Барселона, Испания</span>
               <a href="#" class="plac-number">Номера</a>
             </div>
@@ -303,9 +318,11 @@
             <img src="img/plac-5.jpg" alt="Pfoto descr">
             <div class="plac-items-decsr">
               <div class="plac-decsr">
-                <span class="plac-descr-top">от</span>
-                <span class="plac-descr-top-sum">6 457</span>
-                <span class="plac-descr-top-des">/ ночь</span>
+                <div class="plac-top">
+                  <span class="plac-descr-top">от</span>
+                  <span class="plac-descr-top-sum">6 457</span>
+                  <span class="plac-descr-top-des">/ ночь</span>
+                </div>
                 <div class="plac-star">
                   <img src="img/gold-star.svg" alt="Рейтинг 4 из 5">
                   <img src="img/gold-star.svg">
@@ -314,7 +331,7 @@
                   <img src="img/star.svg">
                 </div>
               </div>
-              <span class="plac-name">Lagoona empujar la creatividad</span>
+              <h3 class="plac-name">Lagoona empujar la creatividad</h3>
               <span class="plac-location">Барселона, Испания</span>
               <a href="#" class="plac-number">Номера</a>
             </div>
@@ -323,9 +340,11 @@
             <img src="img/plac-6.jpg" alt="Pfoto descr">
             <div class="plac-items-decsr">
               <div class="plac-decsr">
-                <span class="plac-descr-top">от</span>
-                <span class="plac-descr-top-sum">6 320</span>
-                <span class="plac-descr-top-des">/ ночь</span>
+                <div class="plac-top">
+                  <span class="plac-descr-top">от</span>
+                  <span class="plac-descr-top-sum">6 320</span>
+                  <span class="plac-descr-top-des">/ ночь</span>
+                </div>
                 <div class="plac-star">
                   <img src="img/gold-star.svg" alt="Рейтинг 4 из 5">
                   <img src="img/gold-star.svg">
@@ -334,7 +353,7 @@
                   <img src="img/star.svg">
                 </div>
               </div>
-              <span class="plac-name">Lagoona el retorno</span>
+              <h3 class="plac-name">Lagoona el retorno</h3>
               <span class="plac-location">Барселона, Испания</span>
               <a href="#" class="plac-number">Номера</a>
             </div>
@@ -343,9 +362,11 @@
             <img src="img/plac-7.jpg" alt="Pfoto descr">
             <div class="plac-items-decsr">
               <div class="plac-decsr">
-                <span class="plac-descr-top">от</span>
-                <span class="plac-descr-top-sum">6 505</span>
-                <span class="plac-descr-top-des">/ ночь</span>
+                <div class="plac-top">
+                  <span class="plac-descr-top">от</span>
+                  <span class="plac-descr-top-sum">6 505</span>
+                  <span class="plac-descr-top-des">/ ночь</span>
+                </div>
                 <div class="plac-star">
                   <img src="img/gold-star.svg" alt="Рейтинг 5 из 5">
                   <img src="img/gold-star.svg">
@@ -354,7 +375,7 @@
                   <img src="img/gold-star.svg">
                 </div>
               </div>
-              <span class="plac-name">Lagoona mentira piadosa</span>
+              <h3 class="plac-name">Lagoona mentira piadosa</h3>
               <span class="plac-location">Барселона, Испания</span>
               <a href="#" class="plac-number">Номера</a>
             </div>
@@ -363,9 +384,11 @@
             <img src="img/plac-8.jpg" alt="Pfoto descr">
             <div class="plac-items-decsr">
               <div class="plac-decsr">
-                <span class="plac-descr-top">от</span>
-                <span class="plac-descr-top-sum">6 824</span>
-                <span class="plac-descr-top-des">/ ночь</span>
+                <div class="plac-top">
+                  <span class="plac-descr-top">от</span>
+                  <span class="plac-descr-top-sum">6 824</span>
+                  <span class="plac-descr-top-des">/ ночь</span>
+                </div>
                 <div class="plac-star">
                   <img src="img/gold-star.svg" alt="Рейтинг 4 из 5">
                   <img src="img/gold-star.svg">
@@ -374,13 +397,12 @@
                   <img src="img/star.svg">
                 </div>
               </div>
-              <span class="plac-name">Lagoona suerte siguió siempre</span>
+              <h3 class="plac-name">Lagoona suerte siguió siempre</h3>
               <span class="plac-location">Барселона, Испания</span>
               <a href="#" class="plac-number">Номера</a>
             </div>
           </li>
-          <li class="plac-items">
-            <img src="img/plac-9.jpg" alt="Pfoto descr">
+          <li class="plac-items plac-image">
             <a href="#" class="plac-all">Посмотреть все варианты</a>
           </li>
         </ul>
