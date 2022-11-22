@@ -3,11 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
   <title>Lagoona</title>
 </head>
 <body>
-  <header class="header">
-    <div class="header-top">
+  <header class="header container section-offset">
+    <div class="header-top flex">
       <a href="#" class="header-logo">
         <img src="img/logo.svg" alt="Logo">
       </a>
@@ -16,9 +18,9 @@
       </address>
       <a class="header-ls image-ls" href="#">Личный кабинет</a>
     </div>
-    <div>
+    <div class="header-menu flex">
       <nav class="header-nav">
-        <ul class="header-list">
+        <ul class="header-list list-reset flex">
           <li class="header-list-item">
             <a href="#онас" class="header-link">О нас</a>
           </li>
@@ -39,14 +41,14 @@
           </li>
         </ul>
       </nav>
-      <div class="header-btn">
-      <a href="#хочутур" class="header-link">Хочу тур</a>
-      <a href="#" class="header-link">Обратный звонок</a>
-    </div>
+      <div class="header-btn flex-pos">
+        <a href="#хочутур" class="header-link header-list-item">Хочу тур</a>
+        <a href="#" class="header-link header-list-item">Обратный звонок</a>
+      </div>
   </div>
   </header>
   <main class="main">
-    <section>
+    <section class="section-offset">
       <div class="container">
         <h2 class="section-title">
           Спецпредложения
@@ -90,7 +92,7 @@
           </div>
       </div>
     </section>
-    <section id="онас" class="us">
+    <section class="section-offset" id="онас" class="us">
       <div class="container">
         <h2 class="section-title">
           О нас
@@ -103,7 +105,7 @@
         </p>
       </div>
     </section>
-    <section id="услуги" class="services">
+    <section class="section-offset" id="услуги" class="services">
       <div class="container">
         <h2 class="section-title">
           Услуги
@@ -160,7 +162,7 @@
         </ul>
       </div>
     </section>
-    <section id="преимущества" class="Advantages">
+    <section class="section-offset" id="преимущества" class="Advantages">
       <div class="container">
         <h2 class="section-title">
           Преимущества
@@ -210,7 +212,7 @@
         </ul>
       </div>
     </section>
-    <section id="размещение" class="Placement">
+    <section class="section-offset" id="размещение" class="Placement">
       <div class="container">
         <h2 class="section-title">
           Размещение
