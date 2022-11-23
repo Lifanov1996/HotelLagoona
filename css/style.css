@@ -410,11 +410,16 @@ a{
   width: 374px;
   min-height: 440px;
   margin-bottom: 24px;
-  outline: 1px solid coral;
+  background-color: #fff;
+  border-radius: 15px;
 }
 
 .plac-items:not(:nth-child(3n)){
   margin-right: 24px;
+}
+
+.plac-item-image{
+  border-radius: 15px 15px 0 0;
 }
 
 .plac-items-decsr{
@@ -429,19 +434,53 @@ a{
 
 .plac-descr-top{
   margin-right: 4px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #999999;
 }
 
 .plac-descr-top-sum{
   margin-right: 4px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  color: #000;
+}
+
+.plac-descr-top-des{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #000;
 }
 
 .plac-name{
   margin: 0;
   margin-bottom: 16px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #000;
 }
 
 .plac-location{
   margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #999999;
+}
+
+.plac-btn-link{
+  padding: 13px 20px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #CC9933;
+  border: 1px solid #CC9933;
+  border-radius: 15px;
+  align-self: flex-start;
 }
 
 .plac-image{
@@ -457,5 +496,13 @@ a{
 }
 
 .plac-all{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 200%;
   color: #fff;
+  background-image: url("/img/plac-image-all.svg");
+  background-position: right center;
+  background-repeat: no-repeat;
+  padding-right: 15px;
+
 }
