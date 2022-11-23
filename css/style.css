@@ -199,7 +199,6 @@ body{
   margin-right: 22px;
 }
 
-
 .adv-image{
   width: 64px;
   height: 66px;
@@ -240,4 +239,64 @@ body{
 
 .adv-descr{
   margin: 0;
+}
+
+
+/*  Placement  */
+.plac-item{
+  flex-wrap: wrap;
+}
+
+.plac-items{
+  width: 374px;
+  min-height: 440px;
+  margin-bottom: 24px;
+  outline: 1px solid coral;
+}
+
+.plac-items:not(:nth-child(3n)){
+  margin-right: 24px;
+}
+
+.plac-items-decsr{
+  padding: 32px 45px 45px 45px;
+  flex-direction: column;
+}
+
+.plac-top{
+  margin-right: auto;
+  margin-bottom: 16px;
+}
+
+.plac-descr-top{
+  margin-right: 4px;
+}
+
+.plac-descr-top-sum{
+  margin-right: 4px;
+}
+
+.plac-name{
+  margin: 0;
+  margin-bottom: 16px;
+}
+
+.plac-location{
+  margin-bottom: 20px;
+}
+
+.plac-image{
+  width: 374px;
+  min-height: 440px;
+  background: transparent url("/img/plac-9.jpg") no-repeat center center / cover;
+}
+
+.plac-item-end{
+  padding-left: 54px;
+  padding-bottom: 27px;
+  align-items: flex-end;
+}
+
+.plac-all{
+  color: #fff;
 }
