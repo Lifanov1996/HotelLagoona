@@ -175,6 +175,7 @@ a{
   padding: 40px 45px;
   margin-right: 24px;
   margin-bottom: 24px;
+  border-radius: 15px;
 }
 
 .specs-image2{
@@ -182,6 +183,7 @@ a{
   height: 258px;
   background: transparent url("/img/specs-2.jpg") no-repeat center center / cover;
   padding: 40px 45px;
+  border-radius: 15px;
 }
 
 .specs-flex{
@@ -242,6 +244,7 @@ a{
   padding-top: 212px;
   padding-left: 45px;
   padding-bottom: 40px;
+  border-radius: 15px;
 }
 
 
@@ -266,7 +269,8 @@ a{
   min-height: 330px;
   margin-bottom: 24px;
   flex-direction: column;
-  outline: 1px solid coral;
+  background-color: #fff;
+  border-radius: 15px;
 }
 
 .services-items:not(:nth-child(2n)){
@@ -277,30 +281,53 @@ a{
   width: 573px;
   height: 165px;
   background: transparent url("/img/services-1.jpg") no-repeat center center / cover;
+  border-radius: 15px 15px 0 0;
 }
 
 .services-item-img2{
   width: 573px;
   height: 165px;
   background: transparent url("/img/services-2.jpg") no-repeat center center / cover;
+  border-radius: 15px 15px 0 0;
 }
 
 .services-item-img3{
   width: 573px;
   height: 165px;
   background: transparent url("/img/services-3.jpg") no-repeat center center / cover;
+  border-radius: 15px 15px 0 0;
 }
 
 .services-item-img4{
   width: 573px;
   height: 165px;
   background: transparent url("/img/services-4.jpg") no-repeat center center / cover;
+  border-radius: 15px 15px 0 0;
 }
 
 .services-descr{
   padding-top: 26px;
   padding-left: 45px;
   padding-bottom: 35px;
+}
+
+.services-link{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 200%;
+  color: #CC9933;
+  background-image: url("/img/specs-4.svg");
+  background-repeat: no-repeat;
+  background-position: right center;
+  padding-right: 15px;
+}
+
+.services-text{
+  max-width: 400px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 200%;
+  color: #000;
 }
 
 .services-titles-item{
@@ -318,7 +345,8 @@ a{
   padding: 40px 42px 32px 45px;
   margin-bottom: 22px;
   flex-direction: column;
-  outline: 1px solid coral;
+  background-color: #fff;
+  border-radius: 15px;
 }
 
 .adv-items:not(:nth-child(4n))
@@ -366,6 +394,10 @@ a{
 
 .adv-descr{
   margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 200%;
+  color: #000;
 }
 
 
