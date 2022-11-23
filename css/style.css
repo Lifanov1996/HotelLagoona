@@ -1,3 +1,33 @@
+@font-face {
+	font-family:'Muller';
+	src: url('MullerRegular.eot');
+	src: local('Muller Regular'), local('MullerRegular'),
+    url('fonts/MullerRegular.woff2') format('woff2'),
+		url('fonts/MullerRegular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family:'Muller';
+	src: url('MullerMedium.eot');
+	src: local('Muller Medium'), local('MullerMedium'),
+    url('fonts/MullerMedium.woff2') format('woff2'),
+		url('fonts/MullerMedium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+	font-family:'Muller';
+	src: url('MullerBold.eot');
+	src: local('Muller Bold'), local('MullerBold'),
+    url('fonts/MullerBold.woff2') format('woff2'),
+		url('fonts/MullerBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
 html{
   box-sizing: border-box;
 }
@@ -14,6 +44,7 @@ img{
 
 body{
   min-width: 1200px;
+  font-family: 'Muller', sans-serif;
 }
 
 /*  Glob  */
@@ -79,6 +110,13 @@ body{
 
 .flex-pos{
   margin-left: auto;
+}
+
+.header-number{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  color: #666666;
 }
 
 
