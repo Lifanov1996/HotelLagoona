@@ -125,6 +125,7 @@ body{
 
 /*  us  */
 .us-descr{
+  margin: 0;
   max-width: 888px;
 }
 
@@ -179,3 +180,64 @@ body{
   margin: 0;
 }
 
+
+/*  Advantages  */
+.adv-item{
+  flex-wrap: wrap;
+}
+.adv-items{
+  width: 276px;
+  min-height: 276px;
+  padding: 40px 42px 32px 45px;
+  margin-bottom: 22px;
+  flex-direction: column;
+  outline: 1px solid coral;
+}
+
+.adv-items:not(:nth-child(4n))
+{
+  margin-right: 22px;
+}
+
+
+.adv-image{
+  width: 64px;
+  height: 66px;
+  margin-bottom: 10px;
+}
+
+.avd-img-1{
+  background: transparent url("/img/adv-1.svg") no-repeat center center / cover;
+}
+
+.avd-img-2{
+  background: transparent url("/img/adv-2.svg") no-repeat center center / cover;
+}
+
+.avd-img-3{
+  background: transparent url("/img/adv-3.svg") no-repeat center center / cover;
+}
+
+.avd-img-4{
+  background: transparent url("/img/adv-4.svg") no-repeat center center / cover;
+}
+
+.avd-img-5{
+  background: transparent url("/img/adv-5.svg") no-repeat center center / cover;
+}
+
+.avd-img-6{
+  background: transparent url("/img/adv-6.svg") no-repeat center center / cover;
+}
+
+.avd-img-7{
+  background: transparent url("/img/adv-7.svg") no-repeat center center / cover;
+}
+
+.avd-img-8{
+  background: transparent url("/img/adv-8.svg") no-repeat center center / cover;
+}
+
+.adv-descr{
+  margin: 0;
+}
