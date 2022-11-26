@@ -53,12 +53,12 @@
         <h2 class="section-title">
           Спецпредложения
         </h2>
-        <div class="flex">
+        <div class="specs">
           <div class="specs-left flex">
             <div class="specs-image1">
               <div class="specs-flex flex">
                 <h3 class="title-specs-item">
-                   Мальдивские острова
+                  Мальдивские острова
                 </h3>
                 <div class="specs-summ">
                   от 55 000
@@ -418,6 +418,64 @@
             <a href="#" class="plac-all">Посмотреть все варианты</a>
           </li>
         </ul>
+      </div>
+    </section>
+    <section class="section-offset" id="хочутур" class="tur">
+      <div class="container">
+        <div class="block">
+          <h2 class="section-title-tur">
+            Хочу тур
+          </h2>
+          <div class="block-menu">
+            <form class="flex" action="https://jsonplaceholder.typicode.com/posts" method="post">
+              <div class="tur-select tur-item tur-name-form">
+                <div class="tur-name-form">Город вылета</div>
+                <select class="tur-name-item-form" name="Город вылета">
+                  <option value="Санкт-Петербург">Санкт-Петербург</option>
+                  <option value="Москва">Москва</option>
+                  <option value="Сочи">Сочи</option>
+                  <option value="Ростов">Ростов</option>
+                  <option value="Екатеринбург">Екатеринбург</option>
+                </select>
+              </div>
+              <div class="tur-select tur-item tur-name-form">
+                <div class="tur-name-form">Страна</div>
+                <select class="tur-name-item-form" name="Страна">
+                  <option value="Россия">Россия</option>
+                  <option value="Автсралия">Автсралия</option>
+                  <option value="Германия">Германия</option>
+                  <option value="Испания">Испания</option>
+                  <option value="Швецария">Швецария</option>
+                  <option value="Румыния">Румыния</option>
+                </select>
+              </div>
+              <div class="tur-input tur-item">
+                <div class="tur-name-form">Дата прибытия</div>
+                <input class="tur-name-item-form" type="date" name="Дата прибытия">
+              </div>
+              <div class="tur-input tur-item">
+                <div class="tur-name-form">Ночей</div>
+                <input class="tur-name-item-form" type="number" step="1" placeholder="1" name="Ночей">
+              </div>
+              <div class="tur-input tur-item">
+                <div class="tur-name-form">Туристы</div>
+                <input class="tur-name-item-form" type="number" step="1" placeholder="1" name="Туристы">
+              </div>
+              <button class="tur-btn" type="submit">Найти</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-offset" id="контакты">
+      <div class="container">
+        <h2 class="section-title">
+          Контакты
+        </h2>
+        <div class="contacts-block">
+
+        </div>
+
       </div>
     </section>
   </main>

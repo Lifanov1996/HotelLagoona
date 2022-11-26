@@ -167,14 +167,17 @@ a{
 
 
 /*  specs  */
-.specs-left{
-  flex-direction: column;
-  display: inline-block;
+.specs{
+  display: flex;
+  align-items: stretch;
 }
 
+.specs-left{
+  flex-direction: column;
+}
 .specs-image1{
   width: 573px;
-  height: 258px;
+  min-height: 258px;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -187,7 +190,7 @@ a{
 
 .specs-image2{
   width: 573px;
-  height: 258px;
+  min-height: 258px;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -198,6 +201,7 @@ a{
 
 .specs-flex{
   flex-direction: column;
+  justify-items: flex-end;
 }
 
 .title-specs-item{
@@ -251,7 +255,7 @@ a{
 
 .specs-image3{
   width: 573px;
-  height: 540px;
+  min-height: 540px;
   background: transparent url("/img/specs-3.jpg") no-repeat center center / cover;
   padding-top: 212px;
   padding-left: 45px;
@@ -333,6 +337,7 @@ a{
 }
 
 .services-text{
+  margin: 0;
   max-width: 400px;
   font-weight: 400;
   font-size: 16px;
@@ -502,8 +507,7 @@ a{
 }
 
 .plac-item-end{
-  padding-left: 54px;
-  padding-bottom: 27px;
+  padding: 27px 54px;
   align-items: flex-end;
 }
 
@@ -516,4 +520,77 @@ a{
   background-position: right center;
   background-repeat: no-repeat;
   padding-right: 15px;
+}
+
+
+/*  tur  */
+.block{
+  padding: 45px;
+  background-color: #E9E9E9;
+  border-radius: 15px;
+}
+
+.section-title-tur{
+  margin: 0;
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  color: #000;
+}
+
+.block-menu{
+  padding: 31px 28px;
+  background-color: #FFFFFF;
+  border-radius: 15px;
+}
+
+.tur-select{
+  display: flex;
+  flex-direction: column;
+  width: 169px;
+
+}
+
+.tur-input{
+  display: flex;
+  flex-direction: column;
+  width: 121px;
+}
+
+.tur-name-form{
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  color: #000;
+  margin-bottom: 15px;
+}
+
+.tur-name-item-form{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #000;
+}
+
+.tur-item{
+  margin: 0;
+  margin-right: 40px;
+}
+
+.tur-item:nth-child(5n){
+  margin-right: auto;
+}
+
+.tur-btn{
+  max-width: 110px;
+  min-height: 50px;
+  border: 1px solid #CC9933;
+  border-radius: 10px;
+  padding: 13px 30px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #CC9933;
+  background-color: #fff;
 }
