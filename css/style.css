@@ -594,3 +594,116 @@ a{
   color: #CC9933;
   background-color: #fff;
 }
+
+
+/*  contacts  */
+.contacts-block{
+  padding: 45px;
+  background-color: #FFFFFF;
+  border-radius: 15px;
+}
+
+.contacts-left{
+  flex-direction: column;
+  width: 375px;
+  margin-right: auto;
+}
+
+.contacts-left-block{
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 375px;
+  min-height: 72px;
+  border-bottom: 1px solid #E9E9E9;
+  padding-bottom: 24px;
+  margin-bottom: 25px;
+}
+
+.contacts-left-block:nth-child(4n){
+  margin-bottom: auto;
+}
+
+.contacts-title-block{
+  margin: 0;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  color: #000;
+}
+
+.contacts-adress-descr{
+  width: 225px;
+  min-height: 48px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.contacts-block-number{
+  width: 225px;
+  min-height: 50px;
+  flex-direction: column;
+}
+
+.contacts-number{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #CC9933;
+}
+
+.contacts-mailt{
+  width: 225px;
+  min-height: 30px;
+}
+
+.contacts-mailt:not(:last-child)
+{
+  margin-bottom: 3px;
+}
+
+.contacts-mailt-email{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #CC9933;
+}
+
+.contacts-mailt-descr{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color:#999999;
+}
+
+.contacts-graf-decrs{
+  width: 225px;
+  min-height: 30px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #000;
+}
+
+.contacts-link-btn{
+  align-items: flex-end;
+  width: 215px;
+  min-height: 65px;
+  border: 1px solid #CC9933;
+  border-radius: 10px;
+  padding: 27px 29px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #CC9933;
+}
+
+.contacts-image{
+  width: 653px;
+  min-height: 528px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url(/img/contacts-1.jpg);
+}
