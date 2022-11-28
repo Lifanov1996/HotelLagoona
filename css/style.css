@@ -257,9 +257,7 @@ a{
   width: 573px;
   min-height: 100%;
   background: transparent url("/img/specs-3.jpg") no-repeat center center / cover;
-  padding-top: 212px;
-  padding-left: 45px;
-  padding-bottom: 40px;
+  padding: 212px 45px 40px 45px;
   border-radius: 15px;
   display: flex;
   flex-direction: column;
