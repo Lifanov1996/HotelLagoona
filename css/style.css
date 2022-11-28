@@ -255,12 +255,15 @@ a{
 
 .specs-image3{
   width: 573px;
-  min-height: 540px;
+  min-height: 100%;
   background: transparent url("/img/specs-3.jpg") no-repeat center center / cover;
   padding-top: 212px;
   padding-left: 45px;
   padding-bottom: 40px;
   border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 
@@ -625,6 +628,8 @@ a{
 }
 
 .contacts-title-block{
+  width: 115px;
+  min-height: 20px;
   margin: 0;
   font-weight: 700;
   font-size: 20px;
@@ -648,6 +653,7 @@ a{
 }
 
 .contacts-number{
+  width: 155px;
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
@@ -716,11 +722,17 @@ a{
   background-color: #333333;
   border-radius: 15px;
   padding: 45px;
+  background-image: url(/img/footer-1.svg);
+  background-repeat: no-repeat;
+  background-position: bottom 0 right 176px;
 }
 
 .footer-left{
   flex-direction: column;
-  justify-content: space-between;
+}
+
+.footer-left-d{
+  margin-bottom: 40px;
 }
 
 .footer-left-descr{
@@ -732,7 +744,14 @@ a{
   color: #fff;
 }
 
+.footer-left-descr:not(:last-child)
+{
+  margin-bottom: 37px;
+}
+
 .footer-left-user{
+  width: 302px;
+  min-height: 20px;
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
@@ -744,6 +763,8 @@ a{
 }
 
 .footer-center-adress{
+  width: 358px;
+  min-height: 25px;
   margin-bottom: 15px;
   font-weight: 400;
   font-size: 16px;
@@ -757,6 +778,8 @@ a{
 }
 
 .footer-number{
+  width: 155px;
+  min-height: 20px;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -769,6 +792,8 @@ a{
 }
 
 .footer-email{
+  width: 140px;
+  min-height: 20px;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -780,39 +805,6 @@ a{
   flex-direction: column;
 }
 
-.footer-image{
-  width: 25px;
-  height: 25px;
-
-}
-
 .footer-image:not(:last-child){
   margin-bottom: 20px;
-}
-
-.footer-ta{
-  width: 100%;
-  height: 100%;
-  background-size:cover;
-  background-image: url(/img/ta.svg);
-  background-repeat: no-repeat;
-  background-position: center center;
-}
-
-.footer-od{
-  width: 100%;
-  height: 100%;
-  background-size:cover;
-  background-image: url(/img/ok.svg);
-  background-repeat: no-repeat;
-  background-position: center center;
-}
-
-.footer-vk{
-  width: 100%;
-  height: 100%;
-  background-size:cover;
-  background-image: url(/img/vk.svg);
-  background-repeat: no-repeat;
-  background-position: center center;
 }
