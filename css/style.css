@@ -567,12 +567,21 @@ a{
   margin-bottom: 15px;
 }
 
+.tur-label{
+  padding-top: 15px;
+}
+
 .tur-name-item-form{
+  height: 21px;
   font-weight: 400;
   font-size: 16px;
   line-height: 16px;
   color: #000;
   border: none;
+}
+
+.tur-name-item-input{
+  border-bottom: 1px solid #E9E9E9;
 }
 
 .tur-item{
@@ -622,7 +631,7 @@ a{
 }
 
 .contacts-left-block:nth-child(4n){
-  margin-bottom: auto;
+  margin-bottom: 45px;
 }
 
 .contacts-title-block{
@@ -705,6 +714,8 @@ a{
 }
 
 .contacts-image{
+  flex-direction: column;
+  justify-content: flex-end;
   width: 653px;
   min-height: 528px;
   background-size: cover;
